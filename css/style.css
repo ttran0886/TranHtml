@@ -1,0 +1,46 @@
+
+
+
+header {
+  background-color: white;
+text-align: center;
+}
+
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  border-radius: 5%
+}
+
+.body {
+  text-align: center;
+  border: 10px solid  lightgray;
+  margin: 0 auto;
+  width: 80%;
+
+
+}
+.about{
+  width: 30%;
+  display: inline-block;
+  margin: 0 auto;
+
+}
+
+
+h2 {
+  font-family: 'Overpass', sans-serif;
+}
+
+p {
+  font-family: arial sans-serif;
+}
+
+h1 {
+  font-family: 'Overpass', sans-serif;
+}
+i {
+  margin: 20px
+}

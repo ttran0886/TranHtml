@@ -1,0 +1,49 @@
+.conatainer {
+  max-width: 400px;
+  margin: 0 auto;
+  outline:1px solid purple;
+  width:100px;
+}
+h1 {
+  font-size: 37px;
+}
+p {
+  font-size: 18px;
+}
+img {
+  width: 100%;
+}
+* {
+  font-family: helvetica, arial, sans-serif;
+}
+div {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 15px;
+  width: 80%;
+  background-color: white;
+  outline: 1px solid red
+}
+
+
+
+@media only screen and (min-width: 500px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  /*
+   *  img should be 25% of the width of the screen
+   *  img should float to the left side
+   *  img should have a 5% margin all around
+   */
+
+  img {
+    /* we've given you this part as a freebee for now */
+    clear: left;
