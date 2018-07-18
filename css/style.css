@@ -1,46 +1,63 @@
-
-
-
-header {
-  background-color: white;
-text-align: center;
+body {
+  background-color: #f6f0e8;
 }
-
-
-img {
-  display: block;
-  margin: 0 auto;
-  width: 300px;
-  border-radius: 5%
+ul {
+  padding-top: 15px;
 }
-
-.body {
+li {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 15px;
   text-align: center;
-  border: 10px solid  lightgray;
-  margin: 0 auto;
-  width: 80%;
-
-
+  list-style-type: none;
+  padding-left: 850px;
+  padding-top: 10px;
 }
-.about{
-  width: 30%;
-  display: inline-block;
-  margin: 0 auto;
-
+.name {
+font-family: 'Pacifico', cursive;
+ font-size: 40px;
+ padding-left: 50px;
+ padding-top: 10px;
+ float: left;
+}
+.bio {
+  width: 300px;
+  height: 500px;
+  float: left;
+  padding-left: 200px;
+  padding-top: 100px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+#img {
+  float: right;
+  width: 35%;
+  padding-right: 200px;
+  padding-top: 10px;
+}
+.img {
+width:350px; height:460px;
+float: left;
+}
+.page-1 {
+  padding-top: 15px;
 }
 
+  @media (max-width: 599px) {
 
-h2 {
-  font-family: 'Overpass', sans-serif;
-}
+  }
 
-p {
-  font-family: arial sans-serif;
-}
+  @media (max-width: 600px) {
 
-h1 {
-  font-family: 'Overpass', sans-serif;
-}
-i {
-  margin: 20px
-}
+  }
+
+  @media (max-width: 900px) {
+
+  }
+
+  @media (max-width: 1200px) {
+
+  }
+
+  @media (max-width: 1800px) {
+
+  }
